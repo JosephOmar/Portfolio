@@ -57,7 +57,7 @@ html{
 /* SECCION INICIO */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.png);
+    url(img/imgfondo.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -109,10 +109,12 @@ html{
     background-color: #1E2326;
     color: #fff;
     padding: 50px 20px;
+    height: 100vh;
 }
 .sobremi .contenido-seccion{
     max-width: 1100px;
     margin: auto;
+    margin-top: 150px;
 }
 .sobremi h2{
     font-size: 48px;
@@ -180,7 +182,7 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+.sobremi a{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -192,8 +194,9 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+    text-decoration: none;
 }
-.sobremi button .overlay{
+.sobremi a .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -203,7 +206,7 @@ html{
     z-index: -1;
     transition: 1s;
 }
-.sobremi button:hover .overlay{
+.sobremi a:hover .overlay{
     width: 100%;
 }
 /* SECCION SKILLS */
